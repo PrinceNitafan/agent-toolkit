@@ -1,0 +1,24 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# CMake and native build trees
+build/
+build-*/
+cmake-build-*/
+compile_commands.json
+
+# Environments and secrets
+.env
+.venv/
+venv/
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+*.swp
+*~
